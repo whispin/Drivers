@@ -1,1 +1,7 @@
-
+spring:
+  application:
+    name: drivers
+logging:
+  file:
+    path: /var/logs/${spring.application.name}
+    name: ${spring.application.name}.log
